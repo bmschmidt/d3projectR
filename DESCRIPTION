@@ -1,0 +1,17 @@
+Package: d3projectR
+Type: Package
+Title: Use D3-project functions in R
+Version: 0.1.0
+Author: Ben Schmidt
+Maintainer: Ben Schmidt<bmschmidt@gmail.com>
+Description: D3-project implements a variety of interesting spherical projections
+    in Javascript. If you want to produce projected data in R that works inside
+    a D3 web project, it can be helpful to call them.
+License: MITs
+Encoding: UTF-8
+LazyData: true
+Imports:
+    V8,
+    rlang,
+    dplyr,
+    jsonlite
